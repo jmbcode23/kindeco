@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.section-pad{
+    padding: 5px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar li:hover{
+    filter: brightness(0.150);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li a, p{
+    text-decoration: none;
+    font-weight: 900;
+    color: #0c2c34;
+}
+#normalBtn button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #c2b097;
+    color: #fff;
+    padding: 15px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#normalBtn button:hover{
+    cursor: pointer;
+    background-color: #0c2c34;
+    transition: 1s;
+}
+#socials{
+    margin-top: 15px;
+    align-content: space-between;
+}
+#socials a{
+    margin-top: 15px;
+    align-content: space-between;
+    padding: 8px;
+    color: inherit;
+    font-size: 24px;
+}
+#main p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    font-size: 70px;
+    color: #ffb400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#arrow a i{
+    font-size: 40px;
+    color: #0c2c34;
+    margin-top: 20px;
+}
+#logo img{
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+}
+#arrow { 
+    background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #0c2c34;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+#wrapper{
+    background-image: url("background1.png");
+    height: 110vh;
+    width: 97%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 10px 20px;
+    z-index: 999;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    /* justify-content: center; */
+
+}
